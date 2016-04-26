@@ -1,202 +1,441 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_height="wrap_content"
-	android:layout_width="wrap_content">
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:fillViewport="true"
+	android:layout_gravity="fill_horizontal">
 
 	<LinearLayout
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
 		android:orientation="vertical">
 
 		<LinearLayout
 			android:layout_height="wrap_content"
 			android:layout_width="match_parent"
 			android:orientation="horizontal"
-			android:gravity="right|center_vertical">
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
 
 			<TextView
 				android:layout_height="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="100dp"
-				android:text="Player"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="textPersonName"
 				android:layout_width="wrap_content"
-				android:ems="10"/>
+				android:text="Player"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="John Smith"
+				android:gravity="right"
+				android:textStyle="bold"/>
 
 		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
 
 		<LinearLayout
 			android:layout_height="wrap_content"
 			android:layout_width="match_parent"
 			android:orientation="horizontal"
-			android:gravity="right|center_vertical">
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
 
 			<TextView
 				android:layout_height="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="100dp"
-				android:text="Character"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="textPersonName"
 				android:layout_width="wrap_content"
-				android:ems="10"/>
+				android:text="Character"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="Nijel the Destroyer"
+				android:gravity="right"
+				android:textStyle="bold"/>
 
 		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
 
 		<LinearLayout
 			android:layout_height="wrap_content"
 			android:layout_width="match_parent"
 			android:orientation="horizontal"
-			android:gravity="right|center_vertical">
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
 
 			<TextView
 				android:layout_height="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="50dp"
-				android:text="DT"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
 				android:layout_width="wrap_content"
-				android:ems="2"
-				android:gravity="right"/>
+				android:text="Death Thresholds"/>
 
 			<TextView
 				android:layout_height="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="50dp"
-				android:text="Tough"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
-				android:layout_width="wrap_content"
-				android:ems="2"
-				android:gravity="right"/>
-
-			<TextView
-				android:layout_height="wrap_content"
-				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="50dp"
-				android:text="Will"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
-				android:layout_width="wrap_content"
-				android:ems="2"
-				android:gravity="right"/>
+				android:layout_width="match_parent"
+				android:text="10"
+				android:gravity="right"
+				android:textStyle="bold"/>
 
 		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
 
 		<LinearLayout
 			android:layout_height="wrap_content"
 			android:layout_width="match_parent"
 			android:orientation="horizontal"
-			android:gravity="right|center_vertical">
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
 
 			<TextView
 				android:layout_height="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="50dp"
-				android:text="Dex"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
 				android:layout_width="wrap_content"
-				android:ems="2"
-				android:gravity="right"/>
+				android:text="T/W/D"/>
 
 			<TextView
 				android:layout_height="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="50dp"
-				android:text="ARS"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
-				android:layout_width="wrap_content"
-				android:ems="2"
-				android:gravity="right"/>
-
-			<TextView
-				android:layout_height="wrap_content"
-				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="50dp"
-				android:text="MIA"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
-				android:layout_width="wrap_content"
-				android:ems="2"
-				android:gravity="right"/>
+				android:layout_width="match_parent"
+				android:text="1/2/3 (ARS 2, MIA 2)"
+				android:gravity="right"
+				android:textStyle="bold"/>
 
 		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
 
 		<LinearLayout
 			android:layout_height="wrap_content"
-			android:layout_width="wrap_content"
+			android:layout_width="match_parent"
 			android:orientation="horizontal"
-			android:gravity="center_vertical">
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
 
 			<TextView
 				android:layout_height="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="65dp"
-				android:text="Life"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
 				android:layout_width="wrap_content"
-				android:ems="3"/>
+				android:text="Life"/>
 
 			<TextView
 				android:layout_height="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="65dp"
-				android:text="Mana"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
-				android:layout_width="wrap_content"
-				android:ems="3"/>
-
-			<TextView
-				android:layout_height="wrap_content"
-				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:layout_width="65dp"
-				android:text="Standing"
-				android:gravity="right"/>
-
-			<EditText
-				android:layout_height="wrap_content"
-				android:inputType="number"
-				android:layout_width="wrap_content"
-				android:ems="3"/>
+				android:layout_width="match_parent"
+				android:text="60"
+				android:gravity="right"
+				android:textStyle="bold"/>
 
 		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Mana"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="2"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Standing"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="10"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Armour"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="center_horizontal">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:text="H: 12p3d2"
+						android:textStyle="bold"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="center_horizontal"
+					android:weightSum="3">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:text="LA: 12p3d2"
+						android:textStyle="bold"
+						android:layout_weight="1.0"
+						android:gravity="left|center_vertical"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:text="C: 12p3d2"
+						android:textStyle="bold"
+						android:layout_weight="1.0"
+						android:gravity="center"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:text="RA: 12p3d2"
+						android:textStyle="bold"
+						android:layout_weight="1.0"
+						android:gravity="right|center_vertical"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="center_horizontal"
+					android:weightSum="2">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:text="LL: 12p3d2"
+						android:textStyle="bold"
+						android:layout_weight="1.0"
+						android:gravity="center"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:text="RL: 12p3d2"
+						android:textStyle="bold"
+						android:layout_weight="1.0"
+						android:gravity="center"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Gladiator Points"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="0"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Lay On Hands"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="0"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Fetch/Spirit Guide Life"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="0"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical"
+			android:weightSum="1.0"
+			android:padding="15dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Fetch Mana/Spirit Guide Standing"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="match_parent"
+				android:text="0"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
 
 	</LinearLayout>
 
