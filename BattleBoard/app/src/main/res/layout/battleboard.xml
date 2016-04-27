@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:padding="10dp"
+		android:weightSum="2">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Nijel the Destroyer"
+			android:layout_weight="1.0"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="John Smith"
+			android:layout_weight="1.0"
+			android:gravity="right"
+			android:textStyle="bold"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:weightSum="3">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1.0"
+			android:padding="10dp"
+			android:weightSum="2">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Tough"
+				android:layout_weight="1.0"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="1"
+				android:layout_weight="1.0"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_height="match_parent"
+			android:layout_width="1dp"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1.0"
+			android:padding="10dp"
+			android:weightSum="2">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Will"
+				android:layout_weight="1.0"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="2"
+				android:layout_weight="1.0"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_height="match_parent"
+			android:layout_width="1dp"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1.0"
+			android:padding="10dp"
+			android:weightSum="2">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Dex"
+				android:layout_weight="1.0"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="3 (ARS 2, MIA 2)"
+				android:layout_weight="1.0"
+				android:gravity="right"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="2dp"
+		android:layout_width="match_parent"/>
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:fillViewport="true"
+		android:foregroundGravity="fill"
+		android:layout_gravity="fill">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="80dp"
+				android:orientation="vertical"
+				android:gravity="center_horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:padding="10dp"
+					android:text="Armour"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="12p2d2"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="12p2d2"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="12p2d2"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="12p2d2"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="12p2d2"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="12p2d2"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<View
+				android:background="?android:attr/dividerHorizontal"
+				android:layout_height="match_parent"
+				android:layout_width="1dp"/>
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				android:orientation="vertical"
+				android:gravity="center_horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:padding="10dp"
+					android:text="DT"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="H"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="C"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="LA"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="RA"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="LL"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="RL"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="L"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="M"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="S"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<View
+				android:background="?android:attr/dividerHorizontal"
+				android:layout_height="match_parent"
+				android:layout_width="1dp"/>
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="80dp"
+				android:orientation="vertical"
+				android:gravity="center_horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="Max"
+					android:padding="10dp"
+					android:gravity="center"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="20"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="30"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="2"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<View
+				android:background="?android:attr/dividerHorizontal"
+				android:layout_height="match_parent"
+				android:layout_width="1dp"/>
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="80dp"
+				android:orientation="vertical"
+				android:gravity="center_horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="Previous"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="20"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="30"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="2"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<View
+				android:background="?android:attr/dividerHorizontal"
+				android:layout_height="match_parent"
+				android:layout_width="1dp"/>
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="80dp"
+				android:orientation="vertical"
+				android:gravity="center_horizontal"
+				android:background="#4A4A4A">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="Current"
+					android:padding="10dp"
+					android:gravity="center"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="20"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="30"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="2"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="10"
+					android:padding="10dp"
+					android:textStyle="bold"/>
+
+				<View
+					android:background="?android:attr/dividerVertical"
+					android:layout_height="1dp"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+			<View
+				android:background="?android:attr/dividerHorizontal"
+				android:layout_height="match_parent"
+				android:layout_width="1dp"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
